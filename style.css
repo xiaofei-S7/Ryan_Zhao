@@ -11,9 +11,10 @@ html {
 .entire {
     padding-left: 120px;
     padding-right: 120px;
-    background-image: url(blub.png);
+    background-image: url(white-with-low-poly-network-connection_1017-29753.jpg);
     background-repeat: no-repeat;
-    height: auto;
+    height: 900px;
+    box-shadow: 0px 5px 5px gray;
     width: auto;
 }
 
@@ -122,6 +123,7 @@ nav {
 
 
 .proTitle {
+    margin-top: 100px;
     display: flex;
     gap: 20px;
 }
@@ -133,9 +135,12 @@ nav {
 
 
 .holder {
-    width: 383px;
-    height: 383px;
     perspective: 700px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
@@ -145,22 +150,28 @@ nav {
 }
 
 .card {
-    width: 100%;
-    height: 100%;
+    width: 383px;
+    height: 383px;
     position: relative;
     transition: all 1s;
     transform-style: preserve-3d;
     margin-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .front,
 .hidden {
-    width: 100%;
-    height: 100%;
+    width: 383px;
+    height: 383px;
     position: absolute;
     backface-visibility: hidden;
     background-color: gray;
     border-radius: 10px;
+
 
 }
 
@@ -185,7 +196,43 @@ nav {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-evenly;
+    gap: 20px;
 
+
+
+}
+
+.cme {
+    font-weight: bold;
+    font-size: 52px;
+    width: 100%;
+    height: 110px;
+}
+
+.contactMe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.ned {
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 50px;
+
+
+}
+
+.ned input {
+    outline: none;
+    border: solid black 5px;
+    width: 200px;
+}
+
+.ned textarea {
+    outline: none;
+    border: solid black 5px;
+    width: 500px;
+    height: 200px;
 
 }
