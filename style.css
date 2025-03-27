@@ -29,13 +29,13 @@ nav {
     text-decoration: none;
     color: black;
     font-size: 36px;
-    padding-left: 15px;
+    padding-left: 25px;
     transition-property: all;
     transition-duration: 0.5s;
 }
 
 .clickables:hover {
-    color: #E44444;
+    color: #43da84;
     transform: scale(1.2);
 }
 
@@ -70,7 +70,7 @@ nav {
 }
 
 #last {
-    color: #E44444;
+    color: #43da84;
     margin-left: 15px;
 
 }
@@ -118,7 +118,7 @@ nav {
 }
 
 .information button:hover {
-    background-color: #E44444;
+    background-color: #ebf9f1;
 }
 
 
@@ -187,6 +187,10 @@ nav {
 
 }
 
+.hidden h1 {
+    color: #43da84;
+}
+
 
 
 .bookstyle {
@@ -204,16 +208,22 @@ nav {
 
 .cme {
     font-weight: bold;
-    font-size: 52px;
-    width: 100%;
+    font-size: 92px;
+    width: fit-content;
     height: 110px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
 }
 
 .contactMe {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 50px;
 }
+
+.full {}
 
 .ned {
     display: flex;
@@ -225,15 +235,76 @@ nav {
 
 .ned input {
     height: 50px;
+    width: 300px;
     outline: none;
-    border: solid black 5px;
-    width: 200px;
+    border: none;
+    background-color: #ebf9f1;
+    border-bottom: solid #ccc 2px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding-left: 5px;
+
 }
 
-.ned textarea {
-    outline: none;
-    border: solid black 5px;
-    width: 500px;
-    height: 200px;
+.ned label {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    height: 50px;
+}
 
+#message {
+    display: flex;
+    justify-content: center;
+}
+
+
+.casein textarea {
+    outline: none;
+    background-color: #ebf9f1;
+    border: solid #ccc 2px;
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+
+.casein label {
+    font-size: 30px;
+}
+
+.casein {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.waste {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.waste button {
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    width: 140px;
+    height: 70px;
+    transition-property: all;
+    transition-duration: 0.5s;
+
+}
+
+.waste button:hover {
+    transform: scale(1.2);
+    background-color: #43da84;
+    color: black;
 }
