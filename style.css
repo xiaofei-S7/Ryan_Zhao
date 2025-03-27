@@ -224,6 +224,7 @@ nav {
 }
 
 .ned input {
+    height: 50px;
     outline: none;
     border: solid black 5px;
     width: 200px;
