@@ -8,14 +8,17 @@ html {
     scroll-behavior: smooth;
 }
 
-.entire {
-    padding-left: 120px;
-    padding-right: 120px;
+.backimage {
     background-image: url(white-with-low-poly-network-connection_1017-29753.jpg);
     background-repeat: no-repeat;
     height: 900px;
     box-shadow: 0px 5px 5px gray;
     width: auto;
+}
+
+.entire {
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 
@@ -223,8 +226,6 @@ nav {
     gap: 50px;
 }
 
-.full {}
-
 .ned {
     display: flex;
     font-size: 30px;
@@ -306,5 +307,57 @@ nav {
 .waste button:hover {
     transform: scale(1.2);
     background-color: #43da84;
-    color: black;
+}
+
+.footer {
+    width: 100%;
+    background-color: #e0e0e08b;
+    height: 250px;
+    padding-top: 20px;
+
+}
+
+.return {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.return img {
+    width: 50px;
+    height: 30px;
+    transition-property: all;
+    transition-duration: 0.3s;
+
+}
+
+.return img:hover {
+    transform: scale(1.6);
+}
+
+.understand {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+#with {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+
+.claim {
+    display: flex;
+    height: 60px;
+    align-items: end;
+}
+
+
+@media only screen and (max-width:430)
 }
