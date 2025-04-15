@@ -364,7 +364,7 @@ nav {
 @media only screen and (max-width:430px) {
 
     .backimage {
-        height: 1110px;
+        height: 1130px;
         width: auto;
         box-shadow: 0px 5px 5px gray;
         background-size: cover;
@@ -493,6 +493,79 @@ nav {
 
     .understand {
         gap: 10px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:834px) {
+
+    .backimage {
+        height: 1130px;
+        width: auto;
+        box-shadow: 0px 5px 5px gray;
+        background-size: cover;
+    }
+
+    .entire {
+        padding: 0;
+    }
+
+    #send {
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        z-index: 1;
+
+    }
+
+    .start {
+        display: none;
+    }
+
+    .clickables {
+        font-size: 25px;
+        text-decoration: underline;
+        text-underline-offset: ;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .aboutMe {
+        display: flex;
+        flex-direction: column;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .information {
+        margin: 15px;
+        font-size: 20px;
+
+    }
+
+
+    .sector {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sector img {
+        width: 95%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
     }
 
 
