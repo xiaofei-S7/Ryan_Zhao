@@ -430,6 +430,7 @@ nav {
     .button button {
         height: 80px;
         width: 200px;
+        color: black;
         font-size: 40px;
     }
 
