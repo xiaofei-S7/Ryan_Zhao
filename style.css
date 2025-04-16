@@ -368,7 +368,7 @@ nav {
 @media only screen and (max-width:430px) {
 
     .backimage {
-        height: 1190px;
+        height: 1270px;
         box-shadow: 0px 5px 5px gray;
         background-size: cover;
     }
