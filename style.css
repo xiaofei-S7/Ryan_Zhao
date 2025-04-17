@@ -312,6 +312,7 @@ nav {
 .waste button:hover {
     transform: scale(1.2);
     background-color: #43da84;
+    color: black;
 }
 
 .footer {
@@ -368,7 +369,7 @@ nav {
 @media only screen and (max-width:430px) {
 
     .backimage {
-        height: 1270px;
+        height: 1300px;
         box-shadow: 0px 5px 5px gray;
         background-size: cover;
     }
@@ -449,15 +450,34 @@ nav {
 
     }
 
-    .card {
+    @keyframes withhold {
+
+        100% {width: 350px; height: 350px;}
+    }
+
+    .card{
         width: 280px;
         height: 280px;
+
     }
+
+    
+    
+    
+    
+    .holder:onclick>.card {
+        cursor: pointer;
+        transform: rotateY(180deg);
+    }
+    
 
     .front {
         width: 280px;
         height: 280px;
         background-size: cover;
+        animation-name: withold;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
     }
 
     .hidden {
@@ -587,9 +607,20 @@ nav {
 
 }
 
+@keyframes withhold {
+    
+    to {scale: 1.5;}
+}
+
 .card {
     width: 280px;
     height: 280px;
+}
+
+
+.holder:onclick>.card {
+    cursor: pointer;
+    transform: rotateY(180deg);
 }
 
 .front {
